@@ -1,0 +1,95 @@
+
+/***topbar***/
+.firstbar{
+  box-shadow:0 .7px 1.4px rgba(0,0,0,.07),0 1.9px 4px rgba(0,0,0,.05),0 4.5px 10px rgba(0,0,0,.05),0 15px 32px rgba(0,0,0,.04);
+  background: white;
+  border-bottom: 1px solid #d3dbe4;
+  z-index: 9999;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 51px;
+}
+.secondbar{
+  /* box-shadow:0 .7px 1.4px rgba(0,0,0,.07),0 1.9px 4px rgba(0,0,0,.05),0 4.5px 10px rgba(0,0,0,.05),0 15px 32px rgba(0,0,0,.04); */
+  background: white;
+  border-bottom: 1px solid #d3dbe4;
+  padding-top: 50px;
+}
+.dropdown-menu{
+  border: 0 !important;
+  box-shadow:0 0 0 rgba(0,0,0,0),0 1.9px 4px rgba(0,0,0,.05),0 4.5px 10px rgba(0,0,0,.05),0 15px 32px rgba(0,0,0,.04);
+  border-radius: 0 !important;
+}
+.dropdownitem-container{
+  padding: 0 1rem;
+}
+.dropdown-item:hover, .dropdown-item:focus{
+  background: inherit !important;
+  outline: none !important;
+}
+.dropdown-item{
+  padding: 0.5rem !important;
+  border-bottom: 1px solid #E9EDF2 !important;
+}
+.dropdown-item:last-child{
+  border-bottom: 0 !important;
+}
+.dd-heading{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1e2328;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.dd-content{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #3b454f;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.dd-content a{
+  color: #3b454f;
+}
+.dd-content a:hover{
+  color: #0055b1;
+}
+.topbar-dot-status{
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.elastic-status-dropdown-container{
+  top: 10px !important;
+}
+.admin-dropdown-container{
+  top: 11px !important;
+}
+.analytics-dropdown-container{
+  top: 4px !important;
+}
+.dropdown-toggle::after{
+  display: inline-block;
+  margin-left: 3px;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  transition: all 150ms ease 0s;
+  color: #0a4a69;
+}
+.dropdown-toggle[aria-expanded="true"]:after{
+  transform: rotate(180deg);
+}
+.fa-user:before{
+  color: black;
+}
